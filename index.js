@@ -7,7 +7,7 @@ const projects = [
         urlSite:'https://hangnguyen81.github.io/finland-through-my-lens/',
         type: 'RWD',
         alt:'Demo picture of webblog - Finland through my lens ',
-        des:'A responsive webblog was built with pure HTML5, CSS and javascript. All pictures are belonged to me!'
+        des:'A responsive personal webblog to express the impression of Finland through camera lens. Technologies use: pure HTML5, CSS and javascript.'
     },
     {
         id: 2,
@@ -16,7 +16,7 @@ const projects = [
         urlSite:'https://hangnguyen81.github.io/hanna-kukka/',
         type: 'RWD',
         alt:'Demo picture of website - Hanna and flower',
-        des:'A responsive website built with HTML5, CSS flexbox and CSS grid.'
+        des:'A responsive website for an online flower shop. Technologies use: HTML5, CSS flexbox and CSS grid.'
     },
     {
         id: 3,
@@ -25,7 +25,7 @@ const projects = [
         urlSite:'https://hangnguyen81.github.io/photography-event/',
         type: 'RWD',
         alt:'Demo picture of photography event promotion',
-        des:'A responsive layout of event register page built with pure HTML5, CSS and little javascript'
+        des:'A responsive layout of event register page. Technologies use: pure HTML5, CSS and (little) javascript'
     },
     {
         id: 4,
@@ -34,7 +34,7 @@ const projects = [
         urlSite:'https://hangnguyen81.github.io/cards-game/',
         type: 'JS',
         alt:'Demo picture of card game',
-        des:'A card game App. Built with Javascript (promise, fetch, async/await) to draw cards from APIs'
+        des:'A card game app fetching cards from APIs. Technologies use: Javascript ES6+ (promise, fetch, async/await)'
     },
     {
         id: 5,
@@ -43,7 +43,7 @@ const projects = [
         urlSite:'https://github.com/hangnguyen81/chrome-extension',
         type: 'JS',
         alt:'Demo picture of chrome-extension',
-        des:'Building extensions for Chrome browser using javascript, html and css'
+        des:'This project contains two extensions for Chrome browser: a bookmark and personal dashboard extension.  Technologies use: Javascript ES6+ (promise, fetch, async/await)'
     },
     {
         id: 6,
@@ -52,7 +52,7 @@ const projects = [
         urlSite:'https://hangnguyen81.github.io/your-notes-keeping/',
         type: 'JS',
         alt:'Demo picture of Note keeping App',
-        des:'Simple clone of Google Keep. Build with HTML, CSS and Javascript'
+        des:'Simple clone of Google Keep. Technologies use: HTML, CSS and Javascript ES6+'
     },
     {
         id: 7,
@@ -61,7 +61,7 @@ const projects = [
         urlSite:'https://hangnguyen81.github.io/monthly-budget-app/',
         type: 'JS',
         alt:'Demo picture of Monthly Budget App',
-        des:'A monthly budget app for personal use. Built with javascript ES6, html and css'
+        des:'A monthly budget app for personal use. Technologies use: javascript ES6+, html and css'
     }
 ]
 
