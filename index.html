@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Web site created using create-react-app"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />      <title>Portfolio - Hang Nguyen</title>
+    <link rel='stylesheet' href="index.css">
+  </head>
+  <body>
+    <div id="root">
+      <header id="logo-nav">
+        <div class="logo">
+            <img src="images/text-logo.png" alt="">
+        </div>     
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+
+            </ul>
+        </nav>
+        <button class="nav-toggle" aria-label="toggle navigation">
+          <span class="hamburger"></span>
+      </button>
+      </header>
+      <!-- Introduction -->
+      <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            <span>Hi, my name is </span><strong>Hang Nguyen</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">I want to become a web dev</p>
+        <img class="intro__img" src="images/hangnguyen.jpg" alt="a picture of Hang Nguyen smiling">
+      </section>
+      
+      <!-- About me -->
+      <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <div class="timeline">
+          <div class="container left">
+            <div class="content">
+              <h3>PAST</h3>
+              <p>I was a former Information Technology teacher in college</p>
+            </div>
+          </div>
+          <div class="container right">
+            <div class="content">
+              <h3>PRESENT</h3>
+              <p>I am in the stage of changing my career</p>
+            </div>
+          </div>
+          <div class="container left">
+            <div class="content">
+              <h3>FUTURE</h3>
+              <p>I want to be a WEB DEV </p>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <!-- Work - what I've built -->
+      <section class="work" id="work">
+        <h2 class="section__title section__title--work">What I have built</h2>
+        <div id="myBtnContainer">
+          <button id ='show-all' class="btn active"> Show all</button>
+          <button id='react' class="btn" > ReactJs</button>
+          <button id='javascript' class="btn" > Javascript</button>
+          <button id='responsive-web-design' class="btn" > Responsive web design</button>
+        </div>
+        <div id="work-grid" class="projects-grid">
+            <!-- project-card display here by javascript -->
+        </div>
+        <a href="https://github.com/hangnguyen81" target="_blank"><button class="btn btn-see-all">See all my projects in GitHub</button></a>
+      </section>
+
+        <!-- Footer -->
+        <footer class="footer" id='contact'>
+          <h2 class="section__title">Get in touch</h2>
+          <p class="project-des">I am looking for opportunity in jobs related to front-end position. 
+            If you found my portfolio competent, please contact me.</p>
+          <a href="mailto:hangntt@gmail.com" class="footer__link"><i class="fas fa-envelope-open-text"></i> hangntt@gmail.com</a>
+          <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://codepen.io/hangnguyen81">
+                    <i class="fab fa-codepen"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.facebook.com/ms.hangnguyen/">
+                  <i class="fab fa-facebook"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/hang-nguyen-a619b1105/">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/hangnguyen81">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+      </footer>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
