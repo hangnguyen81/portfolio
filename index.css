@@ -11,10 +11,18 @@
     
     --fw-reg: 400;
     --fw-bold: 700;
-    
-    --clr-light: #fff;
+
+    /* Theme:gray-orange */
+        /* --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent:#FF9F55 ; 
+    --clr-accent:#FF9F55 ;  */
+
+  /* theme: darkgreen - yellow */
+    --clr-light: #fff;
+    --clr-dark: #164a41;
+    --clr-accent:#F1b24a ; 
+
+
 
     --fs-h1: 2.75rem;
     --fs-h2: 2.25rem;
@@ -85,6 +93,7 @@ header {
 .logo {
   max-width: 150px;
 }
+
 
 /* Menu */
 .nav {
