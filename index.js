@@ -52,7 +52,7 @@ const projects = [
         urlSite:'https://hangnguyen81.github.io/your-notes-keeping/',
         type: 'JS',
         alt:'Demo picture of Note keeping App',
-        des:'Simple clone of Google Keep. Technologies use: HTML, CSS and Javascript ES6+'
+        des:'Simple clone of Google Keep. Technologies use: HTML, CSS and Javascript ES6+, LocalStorage'
     },
     {
         id: 7,
@@ -62,6 +62,15 @@ const projects = [
         type: 'JS',
         alt:'Demo picture of Monthly Budget App',
         des:'A monthly budget app for personal use. Technologies use: javascript ES6+, html and css'
+    },
+    {
+        id: 8,
+        title:'Hanna Photography',
+        urlImg: 'images/rwd/04.jpg',
+        urlSite:'https://hangnguyen81.github.io/photography-sass/dist/',
+        type: 'RWD',
+        alt:'Demo picture of Hanna photography website',
+        des:'A responsive website of photography. Technologies use: SASS, javascript ES6+'
     }
 ]
 
