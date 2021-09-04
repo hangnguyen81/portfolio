@@ -19,15 +19,6 @@ const projects = [
         des:'A responsive website for an online flower shop. Technologies use: HTML5, CSS flexbox and CSS grid.'
     },
     {
-        id: 3,
-        title:'Photography Event',
-        urlImg: 'images/rwd/03.jpg',
-        urlSite:'https://hangnguyen81.github.io/photography-event/',
-        type: 'RWD',
-        alt:'Demo picture of photography event promotion',
-        des:'A responsive layout of event register page. Technologies use: pure HTML5, CSS and (little) javascript'
-    },
-    {
         id: 4,
         title:'Card game',
         urlImg: 'images/js/01.jpg',
@@ -71,6 +62,33 @@ const projects = [
         type: 'RWD',
         alt:'Demo picture of Hanna photography website',
         des:'A responsive website of photography. Technologies use: SASS, javascript ES6+'
+    },
+    {
+        id: 9,
+        title:'Movies Search',
+        urlImg: 'images/react/01.jpg',
+        urlSite:'https://github.com/hangnguyen81/my-react-apps/tree/main/movie-search-app',
+        type: 'REACT',
+        alt:'Demo picture of Movies Search App',
+        des:'An app allows users to search info about movies. Data was fetched from themoviedb.org, Technologies use: ReactJS, React Hooks, fetch (promise, async/await), SASS'
+    },
+    {
+        id: 10,
+        title:'Phone book',
+        urlImg: 'images/react/02.jpg',
+        urlSite:'https://github.com/hangnguyen81/awesome-phone-book',
+        type: 'REACT',
+        alt:'Demo picture of Phone book App',
+        des:'Simple phone book allows users to manage (create/update/delete) their contacts. Technologies use: ReactJS, React Hooks, axios-react and json-server'
+    },
+    {
+        id: 11,
+        title:'Countries Search',
+        urlImg: 'images/react/03.jpg',
+        urlSite:'https://github.com/hangnguyen81/countries-search',
+        type: 'REACT',
+        alt:'Demo picture of countries search App',
+        des:'Tiny app to show information about any country in the world. Technologies use: ReactJS, React Hooks, axios-react, API, SASS'
     }
 ]
 
