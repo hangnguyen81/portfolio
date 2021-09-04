@@ -212,6 +212,8 @@ header {
     font-size: var(--fs-body);
     text-decoration: none;
     padding-left: 1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
   }
 }
 /*=============================================== 
