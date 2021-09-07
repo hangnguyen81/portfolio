@@ -1,4 +1,4 @@
-// Display of projects
+
 const projects = [
     {
         id: 1,
@@ -186,12 +186,10 @@ function removeActiveClass(){
 workGrid.innerHTML  = renderProjects()
 
 //hamburger button and nave
-
 const navToggle = document.querySelector('.nav-toggle')
 const navLinks = document.querySelectorAll('.nav__link')
 
 navToggle.addEventListener('click', () =>{
-    // console.log('hamburger button click')
     document.body.classList.toggle('nav-open')
 })
 
