@@ -89,6 +89,15 @@ const projects = [
         type: 'REACT',
         alt:'Demo picture of countries search App',
         des:'Tiny app to show information about any country in the world. Technologies use: ReactJS, React Hooks, axios-react, API, SASS'
+    },
+    {
+        id: 12,
+        title:'Shopping Cart',
+        urlImg: 'images/react/04.jpg',
+        urlSite:'https://github.com/hangnguyen81/shopping-cart',
+        type: 'REACT',
+        alt:'Demo picture of shopping cart App',
+        des:'Simple demo of shopping cart. Technologies use: ReactJS (Hooks, Context, Router), SASS and Local Storage'
     }
 ]
 
