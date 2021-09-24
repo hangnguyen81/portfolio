@@ -101,6 +101,7 @@ const projects = [
     }
 ]
 
+
 const myBtnContainer = document.getElementById('myBtnContainer')
 const workGrid = document.getElementById('work-grid')
 const showAll = document.getElementById('show-all')

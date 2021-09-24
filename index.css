@@ -505,12 +505,70 @@ WORK SECTION
   color: var(--clr-light);
   font-size: var(--fs-subtitle);
 }
+/* ------------------------------- 
+TECHNOLOGIES SECTION
+---------------------------------*/
+.tech-skills{
+  background-color: var(--clr-dark);
+  font-family: var(--ff-secondary);
+}
 
+.section__title__tech{
+  color: var(--clr-light);
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.tech-grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  max-width: 1200px;
+  width: 100%;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.columns-title {
+  list-style-type: none;
+  border: 1px solid var(--clr-light);
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.columns-title:hover {
+  box-shadow: 0 8px 12px 0 rgba(255, 255, 255, 0.3)
+}
+
+.columns-title li {
+  border-bottom: 1px solid var(--clr-light);
+  padding: 1rem;
+  text-align: center;
+  color: var(--clr-light);
+}
+
+.columns-title .orange {
+  background-color: var(--clr-accent);
+  font-size: 20px;
+  color: var(--clr-light);
+}
+@media only screen and (max-width: 900px) {
+  .tech-grid{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+@media only screen and (max-width: 600px) {
+  .tech-grid{
+    grid-template-columns: 1fr;
+  }
+}
 /* FOOTER */
 
 .footer {
-  background-color: var(--clr-dark);
-  color: var(--clr-light);
+  background-color: var(--clr-light);
+  color: var(--clr-dark);
   text-align: center;
   padding: 2.5em 0;
   font-size: var(--fs-h3);
@@ -524,6 +582,7 @@ WORK SECTION
 
 .footer p{
   margin-bottom: 4em;
+  color: var(--clr-dark);
 }
 
 .footer__link {
