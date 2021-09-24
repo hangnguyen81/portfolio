@@ -254,8 +254,9 @@ section{
 }
 
 .intro__img {
-  box-shadow: var(--bs);
+  box-shadow: var(--bs); 
 }
+
 
 @media (min-width: 600px) {
   .intro {
