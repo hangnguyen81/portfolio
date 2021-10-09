@@ -19,6 +19,15 @@ const projects = [
         des:'A responsive website for an online flower shop. Technologies use: HTML5, CSS flexbox and CSS grid.'
     },
     {
+        id: 3,
+        title:'Photography Event',
+        urlImg: 'images/rwd/03.jpg',
+        urlSite:'https://hangnguyen81.github.io/photography-event/',
+        type: 'RWD',
+        alt:'Demo picture of landing page ',
+        des:'A responsive landing & marketing page of a photography event. Technologies use: HTML5, CSS flexbox and CSS grid.'
+    },
+    {
         id: 4,
         title:'Card game',
         urlImg: 'images/js/01.jpg',
