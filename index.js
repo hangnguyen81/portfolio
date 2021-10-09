@@ -110,7 +110,6 @@ const projects = [
     }
 ]
 
-
 const myBtnContainer = document.getElementById('myBtnContainer')
 const workGrid = document.getElementById('work-grid')
 const showAll = document.getElementById('show-all')
@@ -195,7 +194,6 @@ responsiveWebDesign.addEventListener('click', function(){
 })
 
 function removeActiveClass(){
-    // clear all active class (if has) in every child of myBtnContainer
     for (let child of myBtnContainer.children){
         child.classList.remove('active')
     }
