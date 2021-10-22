@@ -216,3 +216,127 @@ navLinks.forEach(link => {
     })
 })
 
+const techs = [
+    {
+        id: 1,
+        title: "HTML",
+        category: "Programming Languages",
+        info:"",
+    },
+    {
+        id: 2,
+        title: "CSS/SASS",
+        category: "Programming Languages",
+        info:"",
+    },
+    {
+        id: 3,
+        title: "Javascript",
+        category: "Programming Languages",
+        info:"",
+    },
+    {
+        id: 4,
+        title: "Python",
+        category: "Programming Languages",
+        info:"for data analysis",
+    },
+    {
+        id: 5,
+        title: "PHP",
+        category: "Programming Languages",
+        info:"out of practice"
+    },
+    {
+        id: 6,
+        title: "ReactJs",
+        category: "Library | Framework",
+        info:"Hooks, Context, Router, Styled Components"
+    },
+    {
+        id: 7,
+        title: "Redux",
+        category: "Library | Framework",
+        info:""
+    },
+    {
+        id: 8,
+        title: "Bootstrap 5",
+        category: "Library | Framework",
+        info:""
+    },
+    {
+        id: 9,
+        title: "Relational database",
+        category: "Database Related Techs",
+        info:""
+    },
+    {
+        id: 10,
+        title: "Structured Query Language - SQL",
+        category: "Database Related Techs",
+        info:""
+    },
+    {
+        id: 11,
+        title: "MySql",
+        category: "Database Related Techs",
+        info:""
+    },
+    {
+        id: 12,
+        title: "IBM DB2 on Cloud",
+        category: "Database Related Techs",
+        info:""
+    },
+    {
+        id: 13,
+        title: "Visual Studio Code",
+        category: "Tools",
+        info:""
+    },
+    {
+        id: 14,
+        title: "GitBash/GitHub",
+        category: "Tools",
+        info:""
+    },
+    {
+        id: 15,
+        title: "Jupyter Notebook",
+        category: "Tools",
+        info:""
+    },
+    {
+        id: 15,
+        title: "Photoshop",
+        category: "Tools",
+        info:""
+    }
+]
+
+const techCategories = [...new Set(techs.map(item => item.category))]
+
+function renderTechs(){   
+    let techHtml = '';
+    for (let item of techCategories){
+        techHtml += `
+            <div class="columns">
+                <ul class="columns-title">
+                    <li class="orange"> ${item}        `
+        const techsItems = techs.filter(tech =>tech.category === item)
+        for (let techsItem of techsItems){
+            techHtml +=`
+                    <li>${techsItem.title} ${techsItem.info ===""? '': '(' + techsItem.info +')'}</li>
+            `
+        }
+        techHtml += `              
+                    </li>
+                </ul>
+            </div>
+        `
+    }
+    return techHtml;
+}
+const techGrid = document.getElementById('tech-grid')
+techGrid.innerHTML  = renderTechs()
