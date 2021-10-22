@@ -107,6 +107,15 @@ const projects = [
         type: 'REACT',
         alt:'Demo picture of shopping cart App',
         des:'Simple demo of shopping cart. Technologies use: ReactJS (Hooks, Context, Router), SASS and Local Storage'
+    },
+    {
+        id: 13,
+        title:'Offering Tour',
+        urlImg: 'images/react/05.jpg',
+        urlSite:'https://tours-offered-by-hn.netlify.app/',
+        type: 'REACT',
+        alt:'Demo picture of Tour App',
+        des:'Technologies use: ReactJS and Bootstrap5'
     }
 ]
 
