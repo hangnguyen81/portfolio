@@ -74,12 +74,12 @@ const projects = [
     },
     {
         id: 9,
-        title:'Movies Search',
+        title:'Cocktail world',
         urlImg: 'images/react/01.jpg',
-        urlSite:'https://github.com/hangnguyen81/my-react-apps/tree/main/movie-search-app',
+        urlSite:'https://cocktail-world-hn.netlify.app/',
         type: 'REACT',
-        alt:'Demo picture of Movies Search App',
-        des:'An app allows users to search info about movies. Data was fetched from themoviedb.org, Technologies use: ReactJS, React Hooks, fetch (promise, async/await), SASS'
+        alt:'Demo picture of Cocktail world App',
+        des:'An app allows users to search info about cocktails. Data was fetched from thecocktaildb.com, Technologies use: ReactJS (Hooks, Context, Router), fetch (promise, async/await), SASS'
     },
     {
         id: 10,
@@ -103,14 +103,14 @@ const projects = [
         id: 12,
         title:'Shopping Cart',
         urlImg: 'images/react/04.jpg',
-        urlSite:'https://github.com/hangnguyen81/shopping-cart',
+        urlSite:'https://food-ordering-hn.netlify.app/',
         type: 'REACT',
         alt:'Demo picture of shopping cart App',
         des:'Simple demo of shopping cart. Technologies use: ReactJS (Hooks, Context, Router), SASS and Local Storage'
     },
     {
         id: 13,
-        title:'Offering Tour',
+        title:'Offering Tours',
         urlImg: 'images/react/05.jpg',
         urlSite:'https://tours-offered-by-hn.netlify.app/',
         type: 'REACT',

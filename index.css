@@ -506,6 +506,7 @@ WORK SECTION
 .project-des{
   color: var(--clr-light);
   font-size: var(--fs-subtitle);
+  padding: .5rem;
 }
 /* ------------------------------- 
 TECHNOLOGIES SECTION
