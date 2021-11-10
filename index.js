@@ -332,13 +332,15 @@ function renderTechs(){
         techHtml += `
             <div class="columns">
                 <ul class="columns-title">
-                    <li class="orange"> ${item}        `
+                    <li class="orange"> ${item}`
+
         const techsItems = techs.filter(tech =>tech.category === item)
         for (let techsItem of techsItems){
             techHtml +=`
-                    <li>${techsItem.title} ${techsItem.info ===""? '': '(' + techsItem.info +')'}</li>
+                    <li>${techsItem.title} ${techsItem.info ===""? '': `(${techsItem.info})`}</li>
             `
         }
+        
         techHtml += `              
                     </li>
                 </ul>
