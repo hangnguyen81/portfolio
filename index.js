@@ -79,7 +79,7 @@ const projects = [
         urlSite:'https://cocktail-world-hn.netlify.app/',
         type: 'REACT',
         alt:'Demo picture of Cocktail world App',
-        des:'An app allows users to search info about cocktails. Data was fetched from thecocktaildb.com, Technologies use: ReactJS (Hooks, Context, Router), fetch (promise, async/await), SASS'
+        des:'An app allows users to search info about cocktails. Data was fetched from thecocktaildb.com, Technologies use: ReactJS (Hooks, Context, Router), promise, async/await, SASS'
     },
     {
         id: 10,
@@ -92,12 +92,12 @@ const projects = [
     },
     {
         id: 11,
-        title:'Countries Search',
+        title:'User Generator',
         urlImg: 'images/react/03.jpg',
-        urlSite:'https://github.com/hangnguyen81/countries-search',
+        urlSite:'https://random-user-generator-hn.netlify.app/',
         type: 'REACT',
-        alt:'Demo picture of countries search App',
-        des:'Tiny app to show information about any country in the world. Technologies use: ReactJS, React Hooks, axios-react, API, SASS'
+        alt:'Demo picture of User Generator App',
+        des:'Tiny app to show information of random person. Data fetch from https://randomuser.me/. Technologies use: ReactJS, React Hooks, promise, async/await, CSS'
     },
     {
         id: 12,
