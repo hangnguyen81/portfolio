@@ -312,7 +312,7 @@ const techs = [
     },
     {
         id: 17,
-        title: "Mongodb",
+        title: "MongoDB Atlasf",
         category: "Database Related Techs",
         info:"Mongoose"
     },
