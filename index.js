@@ -275,6 +275,18 @@ const techs = [
         info:""
     },
     {
+        id: 18,
+        title: "Node.js",
+        category: "Library | Framework",
+        info:""
+    },
+    {
+        id: 19,
+        title: "Express",
+        category: "Library | Framework",
+        info:""
+    },
+    {
         id: 9,
         title: "Relational database",
         category: "Database Related Techs",
@@ -299,6 +311,12 @@ const techs = [
         info:""
     },
     {
+        id: 17,
+        title: "Mongodb",
+        category: "Database Related Techs",
+        info:"Mongoose"
+    },
+    {
         id: 13,
         title: "Visual Studio Code",
         category: "Tools",
@@ -317,7 +335,7 @@ const techs = [
         info:""
     },
     {
-        id: 15,
+        id: 16,
         title: "Photoshop",
         category: "Tools",
         info:""
