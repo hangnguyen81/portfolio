@@ -83,12 +83,12 @@ const projects = [
     },
     {
         id: 10,
-        title:'Phone book',
+        title:'Phonebook',
         urlImg: 'images/react/02.jpg',
-        urlSite:'https://github.com/hangnguyen81/awesome-phone-book',
+        urlSite:'https://vast-atoll-41721.herokuapp.com/',
         type: 'REACT',
         alt:'Demo picture of Phone book App',
-        des:'Simple phone book allows users to manage (create/update/delete) their contacts. Technologies use: ReactJS, React Hooks, axios-react and json-server'
+        des:'Simple phone book allows users to manage (create/update/delete) their contacts. Technologies use: ReactJS, React Hooks, axios-react, nodejs, express'
     },
     {
         id: 11,
@@ -337,6 +337,12 @@ const techs = [
     {
         id: 16,
         title: "Photoshop",
+        category: "Tools",
+        info:""
+    },
+    {
+        id: 19,
+        title: "Netlify, Heroku",
         category: "Tools",
         info:""
     }
