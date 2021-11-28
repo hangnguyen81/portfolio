@@ -289,31 +289,31 @@ const techs = [
     {
         id: 9,
         title: "Relational database",
-        category: "Database Related Techs",
+        category: "Databases",
         info:""
     },
     {
         id: 10,
         title: "Structured Query Language - SQL",
-        category: "Database Related Techs",
+        category: "Databases",
         info:""
     },
     {
         id: 11,
         title: "MySql",
-        category: "Database Related Techs",
+        category: "Databases",
         info:""
     },
     {
         id: 12,
         title: "IBM DB2 on Cloud",
-        category: "Database Related Techs",
+        category: "Databases",
         info:""
     },
     {
         id: 17,
         title: "MongoDB Atlas",
-        category: "Database Related Techs",
+        category: "Databases",
         info:"Mongoose"
     },
     {
