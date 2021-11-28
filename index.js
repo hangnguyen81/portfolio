@@ -311,12 +311,6 @@ const techs = [
         info:""
     },
     {
-        id: 17,
-        title: "MongoDB Atlas",
-        category: "Databases",
-        info:"Mongoose"
-    },
-    {
         id: 13,
         title: "Visual Studio Code",
         category: "Tools",
