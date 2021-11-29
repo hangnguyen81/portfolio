@@ -88,7 +88,7 @@ const projects = [
         urlSite:'https://vast-atoll-41721.herokuapp.com/',
         type: 'REACT',
         alt:'Demo picture of Phone book App',
-        des:'Simple phone book allows users to manage (create/update/delete) their contacts. Technologies use: ReactJS, React Hooks, axios-react, nodejs, express'
+        des:'Simple phone book allows users to manage (create/update/delete) their contacts. Technologies use: ReactJS, axios-react, nodejs, express, MongoDB'
     },
     {
         id: 11,
