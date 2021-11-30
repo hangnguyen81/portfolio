@@ -116,6 +116,24 @@ const projects = [
         type: 'FULLSTACK',
         alt:'Demo picture of Phone book App',
         des:'Simple phonebook allows users to manage (create/update/delete) their contacts. Techs use: MERN stack (MongoDB, Express, React and Node.js)'
+    },
+    {
+        id: 14,
+        title:'Housing price',
+        urlImg: 'images/da/01.jpg',
+        urlSite:'https://www.linkedin.com/pulse/reference-source-house-buyers-capital-region-finland-hang-nguyen/',
+        type: 'DA',
+        alt:'Demo picture of Housing price project',
+        des:'A reference source for house buyers in Finland by collecting and analyzing spatial data. Techs use: Pandas, matplotlib, BeautifulSoup, pgeocode, folium'
+    },
+    {
+        id: 15,
+        title:'Required IT skills',
+        urlImg: 'images/da/02.jpg',
+        urlSite:'https://www.linkedin.com/in/hang-nguyen-a619b1105/detail/overlay-view/urn:li:fsd_profileTreasuryMedia:(ACoAABqqg6kBDJDEzadNxSJyv1XY9f3k9xTREwE,1635456131314)/',
+        type: 'DA',
+        alt:'Demo picture of Identify IT skills project',
+        des:'A report of trends on merging tech-stacks based on an analysis of data collecting from StackOverflow survey, GitHub Jobs. Techs use: Pandas, matplotlib, IBM Cognos dashboard'
     }
 ]
 
@@ -126,6 +144,7 @@ const react = document.getElementById('react')
 const javascript = document.getElementById('javascript')
 const responsiveWebDesign = document.getElementById('responsive-web-design')
 const fullstack = document.getElementById('fullstack');
+const dataAnalysis = document.getElementById('data-analysis');
 
 function renderProjects(type=''){   
     let projectHtml = ''
@@ -207,6 +226,12 @@ fullstack.addEventListener('click', function(){
     removeActiveClass();
     fullstack.classList.add('active');
     workGrid.innerHTML = renderProjects('FULLSTACK')
+})
+
+dataAnalysis.addEventListener('click', function(){
+    removeActiveClass();
+    dataAnalysis.classList.add('active');
+    workGrid.innerHTML = renderProjects('DA')
 })
 
 function removeActiveClass(){
