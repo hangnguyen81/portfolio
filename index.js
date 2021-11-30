@@ -2,12 +2,12 @@
 const projects = [
     {
         id: 1,
-        title:'Finland through my lens',
+        title:'Finland via my lens',
         urlImg: 'images/rwd/01.jpg',
         urlSite:'https://hangnguyen81.github.io/finland-through-my-lens/',
         type: 'RWD',
         alt:'Demo picture of webblog - Finland through my lens ',
-        des:'A responsive personal webblog to express the impression of Finland through camera lens. Technologies use: pure HTML5, CSS and javascript.'
+        des:'A responsive personal webblog to express the impression of Finland through camera lens. Techs use: HTML5, CSS and Javascript.'
     },
     {
         id: 2,
@@ -16,7 +16,7 @@ const projects = [
         urlSite:'https://hangnguyen81.github.io/hanna-kukka/',
         type: 'RWD',
         alt:'Demo picture of website - Hanna and flower',
-        des:'A responsive website for an online flower shop. Technologies use: HTML5, CSS flexbox and CSS grid.'
+        des:'A responsive website for an online flower shop. Techs use: HTML5, CSS flexbox and CSS grid.'
     },
     {
         id: 3,
@@ -25,7 +25,7 @@ const projects = [
         urlSite:'https://hangnguyen81.github.io/photography-event/',
         type: 'RWD',
         alt:'Demo picture of landing page ',
-        des:'A responsive landing & marketing page of a photography event. Technologies use: HTML5, CSS flexbox and CSS grid.'
+        des:'A responsive landing & marketing page of a photography event. Techs use: HTML5, CSS flexbox and CSS grid.'
     },
     {
         id: 4,
@@ -34,7 +34,7 @@ const projects = [
         urlSite:'https://hangnguyen81.github.io/cards-game/',
         type: 'JS',
         alt:'Demo picture of card game',
-        des:'A card game app fetching cards from APIs. Technologies use: Javascript ES6+ (promise, fetch, async/await)'
+        des:'A card game app fetching cards from APIs. Techs use: Javascript ES6+ (promise, fetch, async/await)'
     },
     {
         id: 5,
@@ -43,7 +43,7 @@ const projects = [
         urlSite:'https://github.com/hangnguyen81/chrome-extension',
         type: 'JS',
         alt:'Demo picture of chrome-extension',
-        des:'This project contains two extensions for Chrome browser: a bookmark and personal dashboard extension.  Technologies use: Javascript ES6+ (promise, fetch, async/await)'
+        des:'Two extensions for Chrome browser: a bookmark and personal dashboard.  Techs use: Javascript ES6+ (promise, fetch, async/await)'
     },
     {
         id: 6,
@@ -52,16 +52,16 @@ const projects = [
         urlSite:'https://hangnguyen81.github.io/your-notes-keeping/',
         type: 'JS',
         alt:'Demo picture of Note keeping App',
-        des:'Simple clone of Google Keep. Technologies use: HTML, CSS and Javascript ES6+, LocalStorage'
+        des:'Simple clone of Google Keep. Techs use: HTML, CSS and Javascript ES6+, LocalStorage'
     },
     {
         id: 7,
-        title:'Monthly budget app',
+        title:'Monthly budget',
         urlImg: 'images/js/04.jpg',
         urlSite:'https://hangnguyen81.github.io/monthly-budget-app/',
         type: 'JS',
         alt:'Demo picture of Monthly Budget App',
-        des:'A monthly budget app for personal use. Technologies use: javascript ES6+, html and css'
+        des:'A monthly budget app for personal use. Techs use: javascript ES6+, html and css'
     },
     {
         id: 8,
@@ -70,7 +70,7 @@ const projects = [
         urlSite:'https://hangnguyen81.github.io/photography-sass/dist/',
         type: 'RWD',
         alt:'Demo picture of Hanna photography website',
-        des:'A responsive website of photography. Technologies use: SASS, javascript ES6+'
+        des:'A responsive website of photography service. Techs use: SASS, javascript ES6+'
     },
     {
         id: 9,
@@ -79,16 +79,7 @@ const projects = [
         urlSite:'https://cocktail-world-hn.netlify.app/',
         type: 'REACT',
         alt:'Demo picture of Cocktail world App',
-        des:'An app allows users to search info about cocktails. Data was fetched from thecocktaildb.com, Technologies use: ReactJS (Hooks, Context, Router), promise, async/await, SASS'
-    },
-    {
-        id: 10,
-        title:'Phonebook',
-        urlImg: 'images/react/02.jpg',
-        urlSite:'https://vast-atoll-41721.herokuapp.com/',
-        type: 'REACT',
-        alt:'Demo picture of Phone book App',
-        des:'Simple phone book allows users to manage (create/update/delete) their contacts. Technologies use: ReactJS, axios-react, nodejs, express, MongoDB'
+        des:'An app allows users to search info about cocktails. Data fetch from thecocktaildb.com. Techs use: ReactJS (Hooks, Context, Router), promise, async/await, SASS'
     },
     {
         id: 11,
@@ -97,7 +88,7 @@ const projects = [
         urlSite:'https://random-user-generator-hn.netlify.app/',
         type: 'REACT',
         alt:'Demo picture of User Generator App',
-        des:'Tiny app to show information of random person. Data fetch from https://randomuser.me/. Technologies use: ReactJS, React Hooks, promise, async/await, CSS'
+        des:'An app shows information of random person. Data fetch from https://randomuser.me/. Techs use: ReactJS, React Hooks, promise, async/await, CSS'
     },
     {
         id: 12,
@@ -106,7 +97,7 @@ const projects = [
         urlSite:'https://food-ordering-hn.netlify.app/',
         type: 'REACT',
         alt:'Demo picture of shopping cart App',
-        des:'Simple demo of shopping cart. Technologies use: ReactJS (Hooks, Context, Router), SASS and Local Storage'
+        des:'Simple demo of shopping cart. Techs use: ReactJS (Hooks, Context, Router), SASS and Local Storage'
     },
     {
         id: 13,
@@ -115,7 +106,16 @@ const projects = [
         urlSite:'https://tours-offered-by-hn.netlify.app/',
         type: 'REACT',
         alt:'Demo picture of Tour App',
-        des:'Technologies use: ReactJS and Bootstrap5'
+        des:'Techs use: ReactJS and Bootstrap5'
+    },
+    {
+        id: 10,
+        title:'Phonebook',
+        urlImg: 'images/fullstack/01.jpg',
+        urlSite:'https://vast-atoll-41721.herokuapp.com/',
+        type: 'FULLSTACK',
+        alt:'Demo picture of Phone book App',
+        des:'Simple phonebook allows users to manage (create/update/delete) their contacts. Techs use: MERN stack (MongoDB, Express, React and Node.js)'
     }
 ]
 
@@ -125,6 +125,7 @@ const showAll = document.getElementById('show-all')
 const react = document.getElementById('react')
 const javascript = document.getElementById('javascript')
 const responsiveWebDesign = document.getElementById('responsive-web-design')
+const fullstack = document.getElementById('fullstack');
 
 function renderProjects(type=''){   
     let projectHtml = ''
@@ -200,6 +201,12 @@ responsiveWebDesign.addEventListener('click', function(){
     removeActiveClass()
     responsiveWebDesign.classList.add('active')
     workGrid.innerHTML  = renderProjects('RWD')
+})
+
+fullstack.addEventListener('click', function(){
+    removeActiveClass();
+    fullstack.classList.add('active');
+    workGrid.innerHTML = renderProjects('FULLSTACK')
 })
 
 function removeActiveClass(){
@@ -294,9 +301,9 @@ const techs = [
     },
     {
         id: 10,
-        title: "Structured Query Language - SQL",
+        title: "Structured Query Language",
         category: "Databases",
-        info:""
+        info:"SQL"
     },
     {
         id: 11,
@@ -307,6 +314,12 @@ const techs = [
     {
         id: 12,
         title: "IBM DB2 on Cloud",
+        category: "Databases",
+        info:""
+    },
+    {
+        id: 20,
+        title: "MongoDB",
         category: "Databases",
         info:""
     },
@@ -350,7 +363,7 @@ function renderTechs(){
         techHtml += `
             <div class="columns">
                 <ul class="columns-title">
-                    <li class="orange"> ${item}`
+                    <li class="dark"> ${item}`
 
         const techsItems = techs.filter(tech =>tech.category === item)
         for (let techsItem of techsItems){
