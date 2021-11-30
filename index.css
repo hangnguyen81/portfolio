@@ -523,6 +523,7 @@ WORK SECTION
   background-color: var(--clr-accent);
   color: var(--clr-dark);
   font-weight: var(--fw-bold);
+  text-decoration: none;
 }
 
 /* PROJECT GRID*/
