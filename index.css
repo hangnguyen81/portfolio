@@ -552,6 +552,11 @@ WORK SECTION
   background: var(--clr-light);
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   border-radius: var(--br);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.project:hover{
+  box-shadow: 2px 4px 8px 0 rgba(250, 252, 251, 0.5);
 }
 
 .code {
@@ -565,17 +570,14 @@ WORK SECTION
 }
 
 .project-image {
-  padding: 1rem;
+  padding: 1rem 1rem 0.5rem 1rem;
   width: 100%;
   object-fit: cover;
   margin-bottom: .5em;
-  opacity: .75;
-  border-bottom: 1px solid var(--clr-dark-fade);
+  /* opacity: .75; */
+  /* border-bottom: 1px solid var(--clr-dark-fade); */
 }
-.project-image:hover,
-.project-image:focus{
-  opacity: 1;
-}
+
 
 .project-title {
   margin: 0;
