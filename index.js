@@ -5,135 +5,150 @@ const projects = [
         title:'Finland via my lens',
         urlImg: 'images/rwd/01.jpg',
         urlSite:'https://hangnguyen81.github.io/finland-through-my-lens/',
+        techs:'HTML5, CSS, Javascript',
         type: 'RWD',
         alt:'Demo picture of webblog - Finland through my lens ',
-        des:'A responsive personal webblog to express the impression of Finland through camera lens. Techs use: HTML5, CSS and Javascript.'
+        des:'A responsive personal webblog to express the impression of Finland through camera lens.'
     },
     {
         id: 2,
         title:'Hanna and flowers',
         urlImg: 'images/rwd/02.jpg',
         urlSite:'https://hangnguyen81.github.io/hanna-kukka/',
+        techs:'HTML5, CSS flexbox, CSS grid',
         type: 'RWD',
         alt:'Demo picture of website - Hanna and flower',
-        des:'A responsive website for an online flower shop. Techs use: HTML5, CSS flexbox and CSS grid.'
+        des:'A responsive website for an online flower shop.'
     },
     {
         id: 3,
         title:'Photography Event',
         urlImg: 'images/rwd/03.jpg',
         urlSite:'https://hangnguyen81.github.io/photography-event/',
+        techs:'HTML5, CSS flexbox, CSS grid',
         type: 'RWD',
         alt:'Demo picture of landing page ',
-        des:'A responsive landing & marketing page of a photography event. Techs use: HTML5, CSS flexbox and CSS grid.'
+        des:'A responsive landing & marketing page of a photography event.'
     },
     {
         id: 4,
         title:'Card game',
         urlImg: 'images/js/01.jpg',
         urlSite:'https://hangnguyen81.github.io/cards-game/',
+        techs:'Javascript ES6+',
         type: 'JS',
         alt:'Demo picture of card game',
-        des:'A card game app fetching cards from APIs. Techs use: Javascript ES6+ (promise, fetch, async/await)'
+        des:'A card game app fetching cards from APIs'
     },
     {
         id: 5,
         title:'Chrome extension',
         urlImg: 'images/js/02.jpg',
         urlSite:'https://github.com/hangnguyen81/chrome-extension',
+        techs:'Javascript ES6+',
         type: 'JS',
         alt:'Demo picture of chrome-extension',
-        des:'Two extensions for Chrome browser: a bookmark and personal dashboard.  Techs use: Javascript ES6+ (promise, fetch, async/await)'
+        des:'Two extensions for Chrome browser: a bookmark and personal dashboard'
     },
     {
         id: 6,
         title:'Note keeping',
         urlImg: 'images/js/03.jpg',
         urlSite:'https://hangnguyen81.github.io/your-notes-keeping/',
+        techs:'HTML, CSS, Javascript ES6+, LocalStorage',
         type: 'JS',
         alt:'Demo picture of Note keeping App',
-        des:'Simple clone of Google Keep. Techs use: HTML, CSS and Javascript ES6+, LocalStorage'
+        des:'Simple clone of Google Keep'
     },
     {
         id: 7,
         title:'Monthly budget',
         urlImg: 'images/js/04.jpg',
         urlSite:'https://hangnguyen81.github.io/monthly-budget-app/',
+        techs:'HTML, CSS, Javascript ES6+',
         type: 'JS',
         alt:'Demo picture of Monthly Budget App',
-        des:'A monthly budget app for personal use. Techs use: javascript ES6+, html and css'
+        des:'A monthly budget app for personal use'
     },
     {
         id: 8,
         title:'Hanna Photography',
         urlImg: 'images/rwd/04.jpg',
         urlSite:'https://hangnguyen81.github.io/photography-sass/dist/',
+        techs:'HTML, SASS, Javascript ES6+',
         type: 'RWD',
         alt:'Demo picture of Hanna photography website',
-        des:'A responsive website of photography service. Techs use: SASS, javascript ES6+'
+        des:'A responsive website of photography service.'
     },
     {
         id: 9,
         title:'Cocktail world',
         urlImg: 'images/react/01.jpg',
         urlSite:'https://cocktail-world-hn.netlify.app/',
+        techs:'React (Hooks, Context, Router), promise, async/await, SASS',
         type: 'REACT',
         alt:'Demo picture of Cocktail world App',
-        des:'An app allows users to search info about cocktails. Data fetch from thecocktaildb.com. Techs use: ReactJS (Hooks, Context, Router), promise, async/await, SASS'
+        des:'An app allows users to search info about cocktails. Data fetch from thecocktaildb.com'
     },
     {
         id: 11,
         title:'User Generator',
         urlImg: 'images/react/03.jpg',
         urlSite:'https://random-user-generator-hn.netlify.app/',
+        techs:'React, promise, async/await, CSS',
         type: 'REACT',
         alt:'Demo picture of User Generator App',
-        des:'An app shows information of random person. Data fetch from https://randomuser.me/. Techs use: ReactJS, React Hooks, promise, async/await, CSS'
+        des:'An app shows information of random person. Data fetch from https://randomuser.me/'
     },
     {
         id: 12,
         title:'Shopping Cart',
         urlImg: 'images/react/04.jpg',
         urlSite:'https://food-ordering-hn.netlify.app/',
+        techs:'React (Hooks, Context, Router), SASS, Local Storage',
         type: 'REACT',
         alt:'Demo picture of shopping cart App',
-        des:'Simple demo of shopping cart. Techs use: ReactJS (Hooks, Context, Router), SASS and Local Storage'
+        des:'Simple demo of shopping cart'
     },
     {
         id: 13,
         title:'Offering Tours',
         urlImg: 'images/react/05.jpg',
         urlSite:'https://tours-offered-by-hn.netlify.app/',
+        techs:'React, Bootstrap5',
         type: 'REACT',
         alt:'Demo picture of Tour App',
-        des:'Techs use: ReactJS and Bootstrap5'
+        des:'List of travel tours and users can remove if not interested'
     },
     {
         id: 10,
         title:'Phonebook',
         urlImg: 'images/fullstack/01.jpg',
         urlSite:'https://vast-atoll-41721.herokuapp.com/',
+        techs:'MERN stack (MongoDB, Express, React and Node.js)',
         type: 'FULLSTACK',
         alt:'Demo picture of Phone book App',
-        des:'Simple phonebook allows users to manage (create/update/delete) their contacts. Techs use: MERN stack (MongoDB, Express, React and Node.js)'
+        des:'Simple phonebook allows users to manage (create/update/delete) their contacts'
     },
     {
         id: 14,
         title:'Housing price',
         urlImg: 'images/da/01.jpg',
         urlSite:'https://www.linkedin.com/pulse/reference-source-house-buyers-capital-region-finland-hang-nguyen/',
+        techs:'Python(Pandas, matplotlib, BeautifulSoup, pgeocode, folium)',
         type: 'DA',
         alt:'Demo picture of Housing price project',
-        des:'A reference source for house buyers in Finland by collecting and analyzing spatial data. Techs use: Pandas, matplotlib, BeautifulSoup, pgeocode, folium'
+        des:'A reference source for house buyers in Finland by collecting and analyzing spatial data'
     },
     {
         id: 15,
         title:'Required IT skills',
         urlImg: 'images/da/02.jpg',
         urlSite:'https://www.linkedin.com/in/hang-nguyen-a619b1105/detail/overlay-view/urn:li:fsd_profileTreasuryMedia:(ACoAABqqg6kBDJDEzadNxSJyv1XY9f3k9xTREwE,1635456131314)/',
+        techs:'Python (Pandas, matplotlib), IBM Cognos dashboard',
         type: 'DA',
         alt:'Demo picture of Identify IT skills project',
-        des:'A report of trends on merging tech-stacks based on an analysis of data collecting from StackOverflow survey, GitHub Jobs. Techs use: Pandas, matplotlib, IBM Cognos dashboard'
+        des:'A report of trends on merging tech-stacks based on an analysis of data collecting from StackOverflow survey, GitHub Jobs '
     }
 ]
 
@@ -168,6 +183,7 @@ function renderProjects(type=''){
                             <span class="code">&#47;&gt;</span>
                         </p>
                     </a>
+                    <p class="project-techs">${project.techs}</p>
                     <p class="project-des">${project.des}</p>
                 </div>`
         }
@@ -188,6 +204,7 @@ function renderProjects(type=''){
                         <span class="code">&#47;&gt;</span>
                     </p>
                 </a>
+                <p class="project-techs">${project.techs}</p>
                 <p class="project-des">${project.des}</p>
             </div>` 
     }
