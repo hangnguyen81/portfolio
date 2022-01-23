@@ -309,7 +309,7 @@ const techs = [
         id: 6,
         title: "ReactJs",
         category: "Library | Framework",
-        info:"Hooks, Context, Router, Styled Components"
+        info:""
     },
     {
         id: 7,
@@ -334,6 +334,12 @@ const techs = [
         title: "Express",
         category: "Library | Framework",
         info:""
+    },
+    {
+        id: 21,
+        title: "Test",
+        category: "Library | Framework",
+        info:"Jest, Cypress"
     },
     {
         id: 9,
