@@ -598,6 +598,10 @@ WORK SECTION
   font-size: var(--fs-subtitle);
   padding: 0 .5rem;
 }
+.project-des-dark{
+  width: 60%;
+  margin: 0 auto 2rem auto;
+}
 
 /* FOOTER */
 

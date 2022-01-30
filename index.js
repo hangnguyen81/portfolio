@@ -339,7 +339,7 @@ const techs = [
         id: 21,
         title: "Test",
         category: "Library | Framework",
-        info:"Jest, Cypress"
+        info:"Jest, Cypress, REST Client"
     },
     {
         id: 9,
