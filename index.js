@@ -121,16 +121,6 @@ const projects = [
         des:'Two extensions for Chrome browser: a bookmark and personal dashboard'
     },
     {
-        id: 4,
-        title:'Card game',
-        urlImg: 'images/js/01.jpg',
-        urlSite:'https://hangnguyen81.github.io/cards-game/',
-        techs:'Javascript ES6+',
-        type: 'JS',
-        alt:'Demo picture of card game',
-        des:'A card game app fetching cards from APIs'
-    },
-    {
         id: 3,
         title:'Photography Event',
         urlImg: 'images/rwd/03.jpg',
