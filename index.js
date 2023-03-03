@@ -276,6 +276,18 @@ navLinks.forEach(link => {
 
 const techs = [
     {
+        id: 3,
+        title: "Javascript/TypeScript",
+        category: "Programming Languages",
+        info:"",
+    },
+    {
+        id: 22,
+        title: "C#/.NET",
+        category: "Programming Languages",
+        info:"",
+    },
+    {
         id: 1,
         title: "HTML",
         category: "Programming Languages",
@@ -284,12 +296,6 @@ const techs = [
     {
         id: 2,
         title: "CSS/SASS",
-        category: "Programming Languages",
-        info:"",
-    },
-    {
-        id: 3,
-        title: "Javascript",
         category: "Programming Languages",
         info:"",
     },
