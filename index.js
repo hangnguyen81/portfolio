@@ -306,6 +306,12 @@ const techs = [
         info:"out of practice"
     },
     {
+        id: 20,
+        title: "Angular",
+        category: "Library | Framework",
+        info:""
+    },
+    {
         id: 6,
         title: "ReactJs",
         category: "Library | Framework",
@@ -313,7 +319,7 @@ const techs = [
     },
     {
         id: 7,
-        title: "Redux",
+        title: "Angular Materials",
         category: "Library | Framework",
         info:""
     },
@@ -373,7 +379,7 @@ const techs = [
     },
     {
         id: 13,
-        title: "Visual Studio Code",
+        title: "Visual Studio, VSCode",
         category: "Tools",
         info:""
     },
